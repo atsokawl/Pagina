@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #C68EFD, #8F87F1);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 7px 18px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  padding: 12px 20px;
+  background-color: #E9A5F1;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.links a:hover {
+  background-color: #ff5c8a;
+}
+
+#logo-spotify{
+    width: 100px;
+    height: 100px;
+    border-color: white;
+}
+
+
+img {
+  border: 5px solid #C68EFD; 
+  border-radius: 10px; 
+  height: 300px;
+  width: 350px;
+}
+
